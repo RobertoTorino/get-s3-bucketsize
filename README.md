@@ -1,8 +1,10 @@
 # Quickly Get Your S3 Bucket Size
 
 > #### Inspired by https://www.slsmk.com/getting-the-size-of-an-s3-bucket-using-boto3-for-aws/                      
-> #### Forked from https://gist.github.com/adaam/9df974a081253efd9db22bf06d997b00                            
+> #### Forked from https://gist.github.com/adaam/9df974a081253efd9db22bf06d997b00     
 
+> **Example output.**               
+>![buckets.png](images/buckets.png)               
 
 > **A small python script that uses Boto3.**                        
 > **It retrieves the bucket size through the CloudWatch Metrics.**          
