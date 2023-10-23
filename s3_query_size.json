@@ -1,0 +1,25 @@
+[
+  {
+    "Id": "s3",
+    "MetricStat": {
+      "Metric": {
+        "Namespace": "AWS/S3",
+        "MetricName": "BucketSizeBytes",
+        "Dimensions": [
+          {
+            "Name": "StorageType",
+            "Value": "YOUR_STORAGE_TYPE"
+          },
+          {
+            "Name": "BucketName",
+            "Value": "YOUR_S3_BUCKET_NAME"
+          }
+        ]
+      },
+      "Period": 60,
+      "Stat": "Sum",
+      "Unit": "Bytes"
+    },
+    "ReturnData": true
+  }
+]
